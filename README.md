@@ -2,10 +2,10 @@
 
 ## API
 
-### 0. Gather data from an API
+### Gather data from an API
 
-The script retrieves an employee and their TODO tasks from the JSONPlaceholder REST API and displays completed-task progress.
+Run the employee TODO progress script with an employee ID:
 
-Usage:
+    python3 0-gather_data_from_an_API.py 2
 
-    python3 api/0-gather_data_from_an_API.py 2
+The script displays the employee's name, completed-task count, total-task count, and completed task titles.
